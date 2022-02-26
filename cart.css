@@ -1,0 +1,198 @@
+#nav1{
+    display: flex;
+    height: 35px;
+    background-color: black;
+    justify-content: end;
+    padding: auto;
+}
+.nv1{
+    margin-right: 3%;
+    color: white;
+    font-size: 110%;
+    margin-top:0.5% ;
+}
+#nav2{
+    display: flex;
+    margin-top: 2%;
+}
+.nv2{
+    display: flex;
+    margin: auto;
+    width: 15%;
+}
+#nv21{
+    margin-top:  4%;
+    margin-right: 3%;
+}
+#search{
+    width: 35%;
+    display: flex;
+    margin: auto;
+    height: 30px;
+}
+#srchbox{
+    width: 80%;
+    height: 80%;
+}
+#srchbox>input{
+   width: 100%;
+   height: 100%;
+   
+}
+#srchbttn , #srchbttn>button{
+    height:100%;
+}
+
+#nav3{
+    display: flex;
+    border-top: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    height: 32px;
+}
+#nav3>div{
+    margin-left: 3%;
+    height: 82%;
+    text-align: justify;
+    font-size: large;
+    padding-top: 4px;
+    
+}
+#nav3>div:hover{
+    background-color: black;
+    color: white;
+}
+.input-group{
+   display: flex;
+   justify-content: center;
+}
+.input-group-field{
+   width: 30%;
+}
+
+.plus-minus-input {
+-webkit-align-items: center;
+   -ms-flex-align: center;
+       align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+text-align: center;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+padding: 1%;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+-webkit-appearance: none;
+       appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+border-radius: 50%;
+padding: 0.25em 0.8em;
+}
+
+table {
+ border-collapse: collapse;
+ width: 100%;
+}
+th{
+   background-color: #eeeeee;
+   padding: 0.5%;
+}
+table, td, th {
+   border: 1px solid gray;
+   font-family: sans-serif;
+}
+#img{
+   width: 25%;
+   height: 40%;
+   border: solid red 1px;
+}
+#cimgdiv{
+   width: 20%;
+   height: auto;
+   border: solid gray 1px;
+}
+#cimgdiv>img{
+   width: 100%;
+   height: 100%;
+}
+#pdiv{
+   display: flex;
+   padding: 2%;
+}
+#namediv{
+   margin-left: 5%;
+}
+#hd1{
+   width: 60%;
+}
+#hd2{
+   width: 10%;
+}
+#hd3{
+   width: 13%;
+}
+#hd4{
+   width: 10%;
+}
+#hd5{
+   width: 5%;
+}
+#container{
+   margin-top: 1%;
+}
+#proceed{
+   display: flex;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   
+}
+#conti{
+   background-color: gray;
+   padding-top: 2%;
+   padding-left: 0.5%;
+   padding-right: 0.5%;
+   color: white;
+   border-radius: 2%;
+   font-family: sans-serif;
+}
+#pay{
+   background-color: #ff6600;
+   padding: 0.5%;
+   color: white;
+   margin-left: 72%;
+   border-radius: 2%;
+   font-family: sans-serif;
+}
+#pay>a>p{
+   color: white;
+}
+.tbl{
+   justify-content: end;
+   text-align: end;
+}
+.remove_btn{
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
+}
+.remove_btn i{
+   color: #ff3c6f;
+   font-size: 16sspx;
+}
+
+.total_MRP,.total_amount,.gst{
+   text-align: end;
+   font-family: sans-serif;
+   padding: 1%;
+}
+a{
+   color: black;
+}
+#pay>a{
+   color: white;
+}
