@@ -1,0 +1,174 @@
+#nav1{
+    display: flex;
+    height: 35px;
+    background-color: black;
+    justify-content: end;
+    padding: auto;
+}
+.nv1{
+    margin-right: 3%;
+    color: white;
+    font-size: 110%;
+    margin-top:0.5% ;
+}
+#nav2{
+    display: flex;
+    margin-top: 2%;
+}
+.nv2{
+    display: flex;
+    margin: auto;
+    width: 15%;
+}
+#nv21{
+    margin-top:  4%;
+    margin-right: 3%;
+    display: block;
+}
+#search{
+    width: 35%;
+    display: flex;
+    margin: auto;
+    height: 30px;
+}
+#srchbox{
+    width: 80%;
+    height: 80%;
+}
+#srchbox>input{
+   width: 100%;
+   height: 100%;
+   
+}
+#srchbttn , #srchbttn>button{
+    height:100%;
+}
+
+#nav3{
+    display: flex;
+    border-top: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    height: 32px;
+}
+#nav3>div{
+    margin-left: 3%;
+    height: 82%;
+    text-align: justify;
+    font-size: large;
+    padding-top: 4px;
+    
+}
+#nav3>div:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product_container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 78%;
+   grid-gap: 2%;
+}
+
+
+#main{
+   display: flex;
+}
+#imgdiv>img{
+   width: 100%;
+}
+#imgdiv{
+   position: relative;
+   width: 100%;
+   max-width: 400px;
+}
+
+#filter{
+   width: 18%;
+}
+
+.icon{
+   color:#6e6f71;
+   font-size: 30px;
+   position: absolute;
+   top: 10%;
+   right: 4%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+
+}
+#namediv{
+   color: #5c5c5c;
+   text-align: center;
+   font-family: sans-serif;
+}
+#pricediv{
+   display: flex;
+   justify-content: space-around;
+}
+#off{
+   color: orange;
+}
+#pricediv>strike{
+   margin-top: 5%;
+   color: #5c5c5c;
+}
+#price{
+   color: #2f2f2f;
+}
+#prodiv:hover{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   cursor: pointer;;
+}
+.flex{
+   display: flex;
+
+}
+.flex>select{
+   margin-left: 80%;
+   height: 25%;
+   padding: 0.5%;
+}
+
+.price,.brand,.catagory,li{
+   font-family: sans-serif;
+}
+#count{
+   color:white;
+   font-size: 18px;
+   position: absolute;
+   top: 13%;
+   right: 17%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+   background-color: #ff6600;
+   border-radius: 80%;
+   padding: 0.25%;
+}
+#shp{
+   display: block;
+   font-size: large;
+   padding-top: 6%;
+}
+a{
+   color: black;
+   font-weight: bold;
+}

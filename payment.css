@@ -1,0 +1,66 @@
+#title{
+    margin: auto;
+    text-align: center;
+}
+#paymentdata{
+    margin-top: 1%;
+
+}
+.qc{
+    display: flex;
+    margin-top: 2%;
+    border: red solid 1px;
+}
+.qc>div:nth-child(1){
+    background-color: black;
+    font-size: large;
+    color: white;
+    padding: 0.95%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.qc>div:nth-child(2){
+    background-color: #333333;
+    font-size: large;
+    color: white;
+    padding: 0.95%;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 91.6%;
+
+}
+#billing>div:nth-child(2){
+    font-family: sans-serif;
+    margin-top: 0.5%;
+    font-weight: bold;
+}
+
+.innr{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.innr>div{
+    width: 30%;
+}
+input{
+    width: 80%;
+    height: 40%;
+}
+#mob{
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 1.4%;
+}
+
+#cont{
+    padding: 1%;
+    background-color: #ff6600;
+    width: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 1%;
+}
+p{
+    font-family: sans-serif;
+}

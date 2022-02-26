@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <!-----------------------Start Navbar------------------------>
+    <div id="nav">
+        <div id="nav1">
+            <div class="nv1">Call Us :+91-9555461555</div>
+            <div class="nv1">Sign In</div>
+            <div class="nv1">Account</div>
+            <div class="nv1">Wishlist</div>
+        </div>
+        <div id="nav2">
+            <div class="nv2">
+                <a href="index.html">
+                    <img src="https://docs.google.com/uc?id=1VCQloShXfqcAQvPqyhs8GxB-BSPkWLIX" alt="">
+                </a>
+            </div>
+            <div id="search">
+                <div id="srchbox" >
+                    <input type="text" placeholder="Search">
+                </div>
+                <div id="srchbttn">
+                   <button  type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="nv2" >
+                <div id="nv21"><i class="fa fa-shopping-cart" style="font-size:48px"></i>
+                    <div id="count"></div>
+                </div>
+                
+                <div id="shp">
+                    <a href="cart.html">
+                        shopping Cart
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div id="nav3">
+            <div>Sports</div>
+            <div>Fitness</div>
+            <div>Shoes</div>
+            <div>Clothing</div>
+            <div>Accessories</div>
+            <div>Leisure Sports</div>
+            <div>Fangear</div>
+            <div>Brands</div>
+        </div>
+    </div>
+    <!-----------------------End Navbar------------------------>
+
+
+    <div class="flex">
+        <h5>FILTERS</h5>
+        <select name="filter" id="sort" onchange="handlepricesort()">
+          <option value="">Sort By : Recommended</option>
+          <option value="discount">Better Discount</option>
+          <option value="high">Price : High to Low</option>
+          <option value="low">Price : Low to High</option>
+        </select>
+    </div>
+
+
+
+    <div id="main">
+        <div id="filter">
+            <div class="category">
+                <h5>CATEGORY</h5>
+                <ul>
+                    <li>Sports</li>
+                    <ul>
+                        <li>Cricket</li>
+                        <li>Gloves</li>
+                        <li>Bat</li>
+                        <li>English Willow</li>
+                        <li>Balls</li>
+                        <li>Kit Bag</li>
+                        <li>Shoes</li>
+                        <li>Gear</li>
+                    </ul>
+                </ul>
+            </div>
+            
+            
+    
+            
+            <div class="brand">
+                <h5>BRAND</h5>
+    
+                <input type="checkbox" />
+                <label for="t_shirt">Adidas</label> <br />
+                <input type="checkbox" />
+                <label for="t_shirt">DSC</label><br />
+                <input type="checkbox" />
+                <label for="t_shirt">Puma</label><br />
+                <input type="checkbox" />
+                <label for="t_shirt">GM</label><br />
+                <input type="checkbox" />
+                <label for="t_shirt">SS</label><br />
+                <input type="checkbox" />
+                <label for="t_shirt">Kookaburra</label><br />
+                <input type="checkbox" />
+                <label for="t_shirt">SG</label><br />
+            </div>
+    
+            <div class="price">
+                <h5>PRICE</h5>
+    
+                <input type="checkbox" name="price" />
+                <label>Rs. 115 to Rs. 2336</label> <br />
+                <input type="checkbox" name="price" />
+                <label>Rs. 2336 to Rs. 4557</label> <br />
+                <input type="checkbox" name="price" />
+                <label>Rs. 4557 to Rs. 6778</label> <br />
+                <input type="checkbox" name="price" />
+                <label>Rs. 6778 to Rs. 8999</label> <br />
+            </div>
+    
+        </div>
+        <div id="product_container"> </div>
+    </div>
+
+</body>
+    <script src="product.js"></script>
+ 
+</html>
