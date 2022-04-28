@@ -5,7 +5,7 @@ This is a indidual project is made during construct week organised at Masai Scho
 
 # Welcome :wave:
 
-![SportsJam.in](https://miro.medium.com/max/700/1*0iIyybACz6SJmC3CFGMrhQ.png)
+![SportsJam.in](https://miro.medium.com/max/1400/1*_Nunc98qixYzPKqfY-XCFA.png)
 
 ## Contributers :- 
 - #### [Aniruddha Nalage](www.linkedin.com/in/anirudh87/)
@@ -35,8 +35,8 @@ This is a indidual project is made during construct week organised at Masai Scho
 
 
 ## Screenshots :- 
-![Product Page](https://miro.medium.com/max/700/1*jIrkroglXG3rgUtpWrl0tQ.png)
-![Cart Page](https://miro.medium.com/max/700/1*T5fZ5il_wHy47UfbCGfiHA.png)
+![Product Page](https://miro.medium.com/max/1400/1*Qww0C6CERZzO-TrihKb93A.png)
+![Cart Page](https://miro.medium.com/max/1400/1*l0vtKQbb7HfiXy41iIloXg.png)
 
 
 
